@@ -1,0 +1,23 @@
+# System Requirements:
+# 1. Install ZED SDK from https://www.stereolabs.com/en-gb/developers/release
+# 2. Install NVIDIA CUDA Toolkit from https://developer.nvidia.com/cuda-downloads
+
+# Core dependencies
+numpy>=1.21
+requests>=2.25
+matplotlib>=3.5
+
+# Computer vision
+opencv-python>=4.5
+open3d>=0.17
+plotly>=5.0
+
+# Cuda dependencies
+cupy-cuda13x; platform_system=="Linux" or platform_system=="Windows"
+
+# OpenGL viewer dependencies (used in ogl_viewer)
+PyOpenGL>=3.1.5
+PyOpenGL_accelerate>=3.1.5
+
+# Utility
+argparse; python_version<"3.10"
